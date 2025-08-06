@@ -5,16 +5,161 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
     <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
-    <title>Coding Assesment L2 boilerplate</title>
+    <title>BundlerProject</title>
 
 </head>
 
 <body>
     <!-- Your code goes here -->
     <div class="container">
-        <a href="https://github.com/mmdmrishabh/Coding-assessment-l2-Boilerplate-code/blob/main/Readme.md" target="_blank">Read how to work with boilerplate</a>
+        <div class="products">
+            <div class="search">
+                <div class="form">
+                    <i class="ri-search-line"></i>
+                    <input type="text" placeholder="Search...">
+                    <button>Search</button>
+                </div>
+            </div>
+            
+            <h2>Buy 3 and Save 30%</h2>
+            <div class="list">
+                <div 
+                    class="items" 
+                    data-product-name="Product one" 
+                    data-product-price="20.30" 
+                    data-image-src="./assets/Photos/photo-1432149877166-f75d49000351.jpg"
+                >
+                    <div class="image">
+                        <img src="./assets/Photos/photo-1432149877166-f75d49000351.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="name">Product one</div>
+                        <div class="price">$20.03</div>
+                        <button class="add-to-bundler-btn">
+                            Add to Bundler 
+                            <span class="plus-icon"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.9099 8.5C14.9099 8.69891 14.8309 8.88968 14.6902 9.03033C14.5496 9.17098 14.3588 9.25 14.1599 9.25H9.40991V14C9.40991 14.1989 9.33089 14.3897 9.19024 14.5303C9.04959 14.671 8.85882 14.75 8.65991 14.75C8.461 14.75 8.27023 14.671 8.12958 14.5303C7.98893 14.3897 7.90991 14.1989 7.90991 14V9.25H3.15991C2.961 9.25 2.77023 9.17098 2.62958 9.03033C2.48893 8.88968 2.40991 8.69891 2.40991 8.5C2.40991 8.30109 2.48893 8.11032 2.62958 7.96967C2.77023 7.82902 2.961 7.75 3.15991 7.75H7.90991V3C7.90991 2.80109 7.98893 2.61032 8.12958 2.46967C8.27023 2.32902 8.461 2.25 8.65991 2.25C8.85882 2.25 9.04959 2.32902 9.19024 2.46967C9.33089 2.61032 9.40991 2.80109 9.40991 3V7.75H14.1599C14.3588 7.75 14.5496 7.82902 14.6902 7.96967C14.8309 8.11032 14.9099 8.30109 14.9099 8.5Z" fill="#24272B"/>
+                            </svg>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="items" data-product-name="Product two" data-product-price="20.30" data-image-src="./assets/Photos/photo-1515886657613-9f3515b0c78f.jpg">
+                    <div class="image">
+                        <img src="./assets/Photos/photo-1515886657613-9f3515b0c78f.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="name">Product two</div>
+                        <div class="price">$20.03</div>
+                        <button class="add-to-bundler-btn">Add to Bundler <span class="plus-icon"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.9099 8.5C14.9099 8.69891 14.8309 8.88968 14.6902 9.03033C14.5496 9.17098 14.3588 9.25 14.1599 9.25H9.40991V14C9.40991 14.1989 9.33089 14.3897 9.19024 14.5303C9.04959 14.671 8.85882 14.75 8.65991 14.75C8.461 14.75 8.27023 14.671 8.12958 14.5303C7.98893 14.3897 7.90991 14.1989 7.90991 14V9.25H3.15991C2.961 9.25 2.77023 9.17098 2.62958 9.03033C2.48893 8.88968 2.40991 8.69891 2.40991 8.5C2.40991 8.30109 2.48893 8.11032 2.62958 7.96967C2.77023 7.82902 2.961 7.75 3.15991 7.75H7.90991V3C7.90991 2.80109 7.98893 2.61032 8.12958 2.46967C8.27023 2.32902 8.461 2.25 8.65991 2.25C8.85882 2.25 9.04959 2.32902 9.19024 2.46967C9.33089 2.61032 9.40991 2.80109 9.40991 3V7.75H14.1599C14.3588 7.75 14.5496 7.82902 14.6902 7.96967C14.8309 8.11032 14.9099 8.30109 14.9099 8.5Z" fill="#24272B"/>
+                            </svg>
+                            </span></button>
+                    </div>
+                </div>
+
+                <div class="items" data-product-name="Product three" data-product-price="20.30" data-image-src="./assets/Photos/photo-1529139574466-a303027c1d8b.jpg">
+                    <div class="image">
+                        <img src="./assets/Photos/photo-1529139574466-a303027c1d8b.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="name">Product three</div>
+                        <div class="price">$20.03</div>
+                        <button class="add-to-bundler-btn">Add to Bundler <span class="plus-icon"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.9099 8.5C14.9099 8.69891 14.8309 8.88968 14.6902 9.03033C14.5496 9.17098 14.3588 9.25 14.1599 9.25H9.40991V14C9.40991 14.1989 9.33089 14.3897 9.19024 14.5303C9.04959 14.671 8.85882 14.75 8.65991 14.75C8.461 14.75 8.27023 14.671 8.12958 14.5303C7.98893 14.3897 7.90991 14.1989 7.90991 14V9.25H3.15991C2.961 9.25 2.77023 9.17098 2.62958 9.03033C2.48893 8.88968 2.40991 8.69891 2.40991 8.5C2.40991 8.30109 2.48893 8.11032 2.62958 7.96967C2.77023 7.82902 2.961 7.75 3.15991 7.75H7.90991V3C7.90991 2.80109 7.98893 2.61032 8.12958 2.46967C8.27023 2.32902 8.461 2.25 8.65991 2.25C8.85882 2.25 9.04959 2.32902 9.19024 2.46967C9.33089 2.61032 9.40991 2.80109 9.40991 3V7.75H14.1599C14.3588 7.75 14.5496 7.82902 14.6902 7.96967C14.8309 8.11032 14.9099 8.30109 14.9099 8.5Z" fill="#24272B"/>
+                            </svg>
+                            </span></button>
+                    </div>
+                </div>
+
+                <div class="items" data-product-name="Product four" data-product-price="20.30" data-image-src="./assets/Photos/photo-1588117260148-b47818741c74.jpg">
+                    <div class="image">
+                        <img src="./assets/Photos/photo-1588117260148-b47818741c74.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="name">Product four</div>
+                        <div class="price">$20.03</div>
+                        <button class="add-to-bundler-btn">Add to Bundler <span class="plus-icon"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.9099 8.5C14.9099 8.69891 14.8309 8.88968 14.6902 9.03033C14.5496 9.17098 14.3588 9.25 14.1599 9.25H9.40991V14C9.40991 14.1989 9.33089 14.3897 9.19024 14.5303C9.04959 14.671 8.85882 14.75 8.65991 14.75C8.461 14.75 8.27023 14.671 8.12958 14.5303C7.98893 14.3897 7.90991 14.1989 7.90991 14V9.25H3.15991C2.961 9.25 2.77023 9.17098 2.62958 9.03033C2.48893 8.88968 2.40991 8.69891 2.40991 8.5C2.40991 8.30109 2.48893 8.11032 2.62958 7.96967C2.77023 7.82902 2.961 7.75 3.15991 7.75H7.90991V3C7.90991 2.80109 7.98893 2.61032 8.12958 2.46967C8.27023 2.32902 8.461 2.25 8.65991 2.25C8.85882 2.25 9.04959 2.32902 9.19024 2.46967C9.33089 2.61032 9.40991 2.80109 9.40991 3V7.75H14.1599C14.3588 7.75 14.5496 7.82902 14.6902 7.96967C14.8309 8.11032 14.9099 8.30109 14.9099 8.5Z" fill="#24272B"/>
+                            </svg>
+                            </span></button>
+                    </div>
+                </div>
+
+                <div class="items" data-product-name="Product five" data-product-price="20.30" data-image-src="./assets/Photos/photo-1603344797033-f0f4f587ab60.jpg">
+                    <div class="image">
+                        <img src="./assets/Photos/photo-1603344797033-f0f4f587ab60.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="name">Product five</div>
+                        <div class="price">$20.03</div>
+                        <button class="add-to-bundler-btn">Add to Bundler <span class="plus-icon"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.9099 8.5C14.9099 8.69891 14.8309 8.88968 14.6902 9.03033C14.5496 9.17098 14.3588 9.25 14.1599 9.25H9.40991V14C9.40991 14.1989 9.33089 14.3897 9.19024 14.5303C9.04959 14.671 8.85882 14.75 8.65991 14.75C8.461 14.75 8.27023 14.671 8.12958 14.5303C7.98893 14.3897 7.90991 14.1989 7.90991 14V9.25H3.15991C2.961 9.25 2.77023 9.17098 2.62958 9.03033C2.48893 8.88968 2.40991 8.69891 2.40991 8.5C2.40991 8.30109 2.48893 8.11032 2.62958 7.96967C2.77023 7.82902 2.961 7.75 3.15991 7.75H7.90991V3C7.90991 2.80109 7.98893 2.61032 8.12958 2.46967C8.27023 2.32902 8.461 2.25 8.65991 2.25C8.85882 2.25 9.04959 2.32902 9.19024 2.46967C9.33089 2.61032 9.40991 2.80109 9.40991 3V7.75H14.1599C14.3588 7.75 14.5496 7.82902 14.6902 7.96967C14.8309 8.11032 14.9099 8.30109 14.9099 8.5Z" fill="#24272B"/>
+                            </svg>
+                            </span></button>
+                    </div>
+                </div>
+
+                <div class="items" data-product-name="Product six" data-product-price="20.30" data-image-src="./assets/Photos/photo-1608748010899-18f300247112.jpg">
+                    <div class="image">
+                        <img src="./assets/Photos/photo-1608748010899-18f300247112.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="name">Product six</div>
+                        <div class="price">$20.03</div>
+                        <button class="add-to-bundler-btn">Add to Bundler <span class="plus-icon"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.9099 8.5C14.9099 8.69891 14.8309 8.88968 14.6902 9.03033C14.5496 9.17098 14.3588 9.25 14.1599 9.25H9.40991V14C9.40991 14.1989 9.33089 14.3897 9.19024 14.5303C9.04959 14.671 8.85882 14.75 8.65991 14.75C8.461 14.75 8.27023 14.671 8.12958 14.5303C7.98893 14.3897 7.90991 14.1989 7.90991 14V9.25H3.15991C2.961 9.25 2.77023 9.17098 2.62958 9.03033C2.48893 8.88968 2.40991 8.69891 2.40991 8.5C2.40991 8.30109 2.48893 8.11032 2.62958 7.96967C2.77023 7.82902 2.961 7.75 3.15991 7.75H7.90991V3C7.90991 2.80109 7.98893 2.61032 8.12958 2.46967C8.27023 2.32902 8.461 2.25 8.65991 2.25C8.85882 2.25 9.04959 2.32902 9.19024 2.46967C9.33089 2.61032 9.40991 2.80109 9.40991 3V7.75H14.1599C14.3588 7.75 14.5496 7.82902 14.6902 7.96967C14.8309 8.11032 14.9099 8.30109 14.9099 8.5Z" fill="#24272B"/>
+                            </svg>
+                            </span></button>
+                    </div>
+                </div>
+
+                <div class="items" data-product-name="Product seven" data-product-price="20.30" data-image-src="./assets/Photos/photo-1632149877166-f75d49000351.jpg">
+                    <div class="image">
+                        <img src="./assets/Photos/photo-1632149877166-f75d49000351.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="name">Product seven</div>
+                        <div class="price">$20.03</div>
+                        <button class="add-to-bundler-btn">Add to Bundler <span class="plus-icon"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.9099 8.5C14.9099 8.69891 14.8309 8.88968 14.6902 9.03033C14.5496 9.17098 14.3588 9.25 14.1599 9.25H9.40991V14C9.40991 14.1989 9.33089 14.3897 9.19024 14.5303C9.04959 14.671 8.85882 14.75 8.65991 14.75C8.461 14.75 8.27023 14.671 8.12958 14.5303C7.98893 14.3897 7.90991 14.1989 7.90991 14V9.25H3.15991C2.961 9.25 2.77023 9.17098 2.62958 9.03033C2.48893 8.88968 2.40991 8.69891 2.40991 8.5C2.40991 8.30109 2.48893 8.11032 2.62958 7.96967C2.77023 7.82902 2.961 7.75 3.15991 7.75H7.90991V3C7.90991 2.80109 7.98893 2.61032 8.12958 2.46967C8.27023 2.32902 8.461 2.25 8.65991 2.25C8.85882 2.25 9.04959 2.32902 9.19024 2.46967C9.33089 2.61032 9.40991 2.80109 9.40991 3V7.75H14.1599C14.3588 7.75 14.5496 7.82902 14.6902 7.96967C14.8309 8.11032 14.9099 8.30109 14.9099 8.5Z" fill="#24272B"/>
+                            </svg>
+                            </span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+        <div class="carts">
+            <h2>Create a Bundle</h2>
+            <p>Add at <strong>least 3</strong> Products and <strong>Save 30%</strong>.</p>
+
+            <div class="progress-bar">
+                <div class="progress" id="bundle-progress"></div>
+            </div>
+
+            <div id="bundler-product-list">
+                <p id="bundler-product-list">Your bundler is empty</p>
+            </div>
+
+            <div class="summary">
+                <div><span>Discount</span><span id="bundle-discount">-$0.00</span></div>
+                <div class="subtotal"><span>Subtotal</span> <span id="bundle-subtotal">$0.00</span></div>
+                <button class="proceed-btn" id="proceed-to-bundle-btn">Add 3 Items to proceed <span></span></button>
+            </div>
+        </div>
     </div>
+    <!-- <div class="container">
+        <a href="https://github.com/mmdmrishabh/Coding-assessment-l2-Boilerplate-code/blob/main/Readme.md" target="_blank">Read how to work with boilerplate</a>
+    </div> -->
     <!-- Happy coding 😊 -->
     <script src="./script.js"></script>
 </body>
